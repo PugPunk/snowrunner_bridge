@@ -12,10 +12,10 @@
 <Truck Type="Trailer">
 	<TruckData RepairsCapacity="300" WheelRepairsCapacity="2">
 		<Wheels>
-			<Wheel _template="DollyWheel" Pos="(.1; 1.15; .47)" />
-			<Wheel _template="DollyWheel" Pos="(.1; 1.15; .47)" RightSide="true" />
-			<Wheel _template="DollyWheel" Pos="(-0.3; 1.15; .47)" />
-			<Wheel _template="DollyWheel" Pos="(-0.3; 1.15; .47)" RightSide="true" />					
+			<Wheel _template="DollyWheel" Pos="(5.4; .7; 1.5)" />
+			<Wheel _template="DollyWheel" Pos="(5.4; .7; 1.5)" RightSide="true" />
+			<Wheel _template="DollyWheel" Pos="(-4; .7; 1.5)" />
+			<Wheel _template="DollyWheel" Pos="(-4; .7; 1.5)" RightSide="true" />								
 		</Wheels>
 		<OcclusionMap
 			HalfSizeZ="1.8"
@@ -46,8 +46,8 @@
 			UiIcon40x40="trailerSemiImg"
 			UiName="Repair Hitch Cargo Rack (Non Scout)"
 		/>
-		<InstallSocket Offset="(.45; 0.48; 0)" Type="Trailer" />		
-		<WinchSocket Pos="(.45; 0.48; 0)" ParentFrame="BoneCabin_cdt" />		
-		<CraneSocket Pos="(.45; 0.48; 0)" />						
+		<InstallSocket Offset="(8; .7; 0)" Type="Trailer" />		
+		<WinchSocket Pos="(0; 2.65; 0)" ParentFrame="BoneCabin_cdt" />		
+		<CraneSocket Pos="(0; 2.65; 0)" />						
 	</GameData>
 </Truck>
