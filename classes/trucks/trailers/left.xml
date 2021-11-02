@@ -12,10 +12,11 @@
 <Truck Type="Trailer">
 	<TruckData RepairsCapacity="300" WheelRepairsCapacity="2">
 		<Wheels>
-			<Wheel _template="DollyWheel" Pos="(.1; 1.15; .47)" />
-			<Wheel _template="DollyWheel" Pos="(.1; 1.15; .47)" RightSide="true" />
-			<Wheel _template="DollyWheel" Pos="(-0.3; 1.15; .47)" />
-			<Wheel _template="DollyWheel" Pos="(-0.3; 1.15; .47)" RightSide="true" />					
+			<Wheel _template="DollyWheel" Pos="(1.8; .65; 1)" />
+			<Wheel _template="DollyWheel" Pos="(1.8; .65; 1)" RightSide="true" />
+			<Wheel _template="DollyWheel" Pos="(-2.49; .65; 1)" />
+			<Wheel _template="DollyWheel" Pos="(-2.49; .65; 1)" RightSide="true" />					
+			
 		</Wheels>
 		<OcclusionMap
 			HalfSizeZ="1.8"
@@ -33,21 +34,21 @@
 		<Body
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
-			Mass="250"
+			Mass="3000"
 		>
 		</Body>
 	</PhysicsModel>
 	<Landmark Mesh="landmarks/cargo_unit_service_spare_parts_1_lmk" MinScale="1.8" MaxScale="3.8" />
-	<GameData Price="275">
+	<GameData Price="675">
 		<CraneSocket Pos="(-.3; 1.6; 0)" />
 		<UiDesc
-			UiDesc="Repair Hitch Cargo Rack (Non Scout)"
+			UiDesc="JigSaw Bridge (end)"
 			UiIcon30x30="trailerSemiImg30"
 			UiIcon40x40="trailerSemiImg"
-			UiName="Repair Hitch Cargo Rack (Non Scout)"
+			UiName="JigSaw Bridge (end)"
 		/>
-		<InstallSocket Offset="(.45; 0.48; 0)" Type="Trailer" />		
-		<WinchSocket Pos="(.45; 0.48; 0)" ParentFrame="BoneCabin_cdt" />		
-		<CraneSocket Pos="(.45; 0.48; 0)" />						
+		<InstallSocket Offset="(4; .7; 0)" Type="Trailer" />		
+		<WinchSocket Pos="(0; 1.47; 0)" ParentFrame="BoneCabin_cdt" />		
+		<CraneSocket Pos="(0; 1.47; 0)" />						
 	</GameData>
 </Truck>
