@@ -16,7 +16,6 @@
 			<Wheel _template="DollyWheel" Pos="(2.4; .65; 1)" RightSide="true" />
 			<Wheel _template="DollyWheel" Pos="(-2.1; .65; 1)" />
 			<Wheel _template="DollyWheel" Pos="(-2.1; .65; 1)" RightSide="true" />	
-			
 		</Wheels>
 		<OcclusionMap
 			HalfSizeZ="1.8"
@@ -48,7 +47,15 @@
 			UiName="JigSaw Bridge (platform)"
 		/>
 		<InstallSocket Offset="(4; .35; 0)" Type="Trailer" />		
-		<WinchSocket Pos="(0; 1.48; 0)" ParentFrame="BoneCabin_cdt" />		
+		<WinchSocket Pos="(0; 1.48; 0)" />		
 		<CraneSocket Pos="(0; 1.48; 0)" />						
+		<WinchSocket Pos="(-2.7; 1.85; 1.5)" />		
+		<CraneSocket Pos="(-2.7; 1.85; 1.5)" />						
+		<WinchSocket Pos="(-2.7; 1.85; -1.5)" />		
+		<CraneSocket Pos="(-2.7; 1.85; -1.5)" />						
+		<WinchSocket Pos="(2.28; 1.85; 1.5)" />		
+		<CraneSocket Pos="(2.28; 1.85; 1.5)" />						
+		<WinchSocket Pos="(2.28; 1.85; -1.5)" />		
+		<CraneSocket Pos="(2.28; 1.85; -1.5)" />						
 	</GameData>
 </Truck>
