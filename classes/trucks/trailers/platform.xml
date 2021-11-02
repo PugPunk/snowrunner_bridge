@@ -41,10 +41,10 @@
 	<GameData Price="275">
 		<CraneSocket Pos="(-.3; 1.6; 0)" />
 		<UiDesc
-			UiDesc="JigSaw Bridge (platform)"
+			UiDesc="JigSaw Bridge Original (platform)"
 			UiIcon30x30="trailerSemiImg30"
 			UiIcon40x40="trailerSemiImg"
-			UiName="JigSaw Bridge (platform)"
+			UiName="JigSaw Bridge Original (platform)"
 		/>
 		<InstallSocket Offset="(4; .35; 0)" Type="Trailer" />		
 		<WinchSocket Pos="(0; 1.48; 0)" />		

@@ -34,6 +34,7 @@
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
 			Mass="2000"
+			Friction="3"			
 		>
 		</Body>
 	</PhysicsModel>
