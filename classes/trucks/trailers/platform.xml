@@ -16,8 +16,6 @@
 			<Wheel _template="DollyWheel" Pos="(2.4; .65; 1)" RightSide="true" />
 			<Wheel _template="DollyWheel" Pos="(-2.1; .65; 1)" />
 			<Wheel _template="DollyWheel" Pos="(-2.1; .65; 1)" RightSide="true" />	
-
-			<Wheel _template="DollyWheel" Pos="(0; 1.92; 0)" RightSide="true" />						
 			
 		</Wheels>
 		<OcclusionMap
@@ -36,7 +34,7 @@
 		<Body
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
-			Mass="3000"
+			Mass="2000"
 		>
 		</Body>
 	</PhysicsModel>
