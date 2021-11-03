@@ -12,10 +12,10 @@
 <Truck Type="Trailer">
 	<TruckData RepairsCapacity="300" WheelRepairsCapacity="2">
 		<Wheels>
-			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1)" />
-			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1)" RightSide="true" />
+			<Wheel _template="DollyWheel" Pos="(2.2; .65; 1)" />
+			<Wheel _template="DollyWheel" Pos="(2.2; .65; 1)" RightSide="true" />
 			<Wheel _template="DollyWheel" Pos="(-2.1; .65; 1)" />
-			<Wheel _template="DollyWheel" Pos="(-2.1; .65; 1)" RightSide="true" />			
+			<Wheel _template="DollyWheel" Pos="(-2.1; .65; 1)" RightSide="true" />				
 		</Wheels>
 		<OcclusionMap
 			HalfSizeZ="1.8"
@@ -40,7 +40,6 @@
 	</PhysicsModel>
 	<Landmark Mesh="landmarks/cargo_unit_service_spare_parts_1_lmk" MinScale="1.8" MaxScale="3.8" />
 	<GameData Price="275">
-		<CraneSocket Pos="(-.3; 1.6; 0)" />
 		<UiDesc
 			UiDesc="JigSaw Bridge (platform)"
 			UiIcon30x30="trailerSemiImg30"
@@ -48,15 +47,19 @@
 			UiName="JigSaw Bridge (platform)"
 		/>
 		<InstallSocket Offset="(4; .35; 0)" Type="Trailer" />		
-		<WinchSocket Pos="(0; 1.49; 0)" />		
-		<CraneSocket Pos="(0; 1.49; 0)" />
-		<WinchSocket Pos="(-1.88; 1.45; 1.5)" />		
-		<CraneSocket Pos="(-1.88; 1.45; 1.5)" />						
-		<WinchSocket Pos="(-1.88; 1.45; -1.5)" />		
-		<CraneSocket Pos="(-1.88; 1.45; -1.5)" />						
-		<WinchSocket Pos="(1.6; 1.45; 1.5)" />		
-		<CraneSocket Pos="(1.6; 1.45; 1.5)" />						
-		<WinchSocket Pos="(1.6; 1.45; -1.5)" />		
-		<CraneSocket Pos="(1.6; 1.45; -1.5)" />						
+		<WinchSocket Pos="(0; 1.44; 0)" />		
+		<CraneSocket Pos="(0; 1.44; 0)" />
+		<WinchSocket Pos="(-2.2; 1.44; 0)" />		
+		<CraneSocket Pos="(-2.2; 1.44; 0)" />
+		<WinchSocket Pos="(3.26; 1.44; 0)" />		
+		<CraneSocket Pos="(3.26; 1.44; 0)" />
+		<WinchSocket Pos="(2.32; .98; 1.5)" />		
+		<CraneSocket Pos="(2.32; .98; 1.5)" />						
+		<WinchSocket Pos="(2.32; .98; -1.5)" />		
+		<CraneSocket Pos="(2.32; .98; -1.5)" />						
+		<WinchSocket Pos="(-2.6; .98; 1.5)" />		
+		<CraneSocket Pos="(-2.6; .98; 1.5)" />						
+		<WinchSocket Pos="(-2.6; .98; -1.5)" />		
+		<CraneSocket Pos="(-2.6; .98; -1.5)" />						
 	</GameData>
 </Truck>
