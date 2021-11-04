@@ -15,9 +15,8 @@
 			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1)" />
 			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1)" RightSide="true" />
 			
-			<Wheel _template="DollyWheel" Pos="(-2.2; 1.94 .56)" ParentFrame="Left_cdt" />
-			<Wheel _template="DollyWheel" Pos="(-2.2; 1.94 .56)" RightSide="true" ParentFrame="Right_cdt" />
-			
+			<!--Wheel _template="DollyWheel" Pos="(-2.2; 1.94 .56)" ParentFrame="Left_cdt" />
+			<Wheel _template="DollyWheel" Pos="(-2.2; 1.94 .56)" RightSide="true" ParentFrame="Right_cdt" /-->			
 		</Wheels>
 		<OcclusionMap
 			HalfSizeZ="1.8"
@@ -38,12 +37,12 @@
 			Mass="1200"
 			Friction="3"						
 		>
-			<Body Mass="400" ModelFrame="Left_cdt">
+			<!--Body Mass="400" ModelFrame="Left_cdt">
 				<Constraint
 					AxisLocal="(0; 0; 1)"
 					Name="Left"
 					Type="Hinge"
-					MinLimit="-150"
+					MinLimit="-100"
 					MaxLimit="350"
 				>
 				</Constraint>		
@@ -53,11 +52,11 @@
 					AxisLocal="(0; 0; 1)"
 					Name="Right"
 					Type="Hinge"
-					MinLimit="-150"
+					MinLimit="-100"
 					MaxLimit="350"
 				>
 				</Constraint>		
-			</Body>							
+			</Body-->							
 		</Body>
 	</PhysicsModel>
 	<Landmark Mesh="landmarks/cargo_unit_service_spare_parts_1_lmk" MinScale="1.8" MaxScale="3.8" />
@@ -81,7 +80,7 @@
 		<WinchSocket Pos="(-2; 1.45; 1.1)" ParentFrame="Left_cdt"/>		
 		<CraneSocket Pos="(-2; 1.45; 1.1)" ParentFrame="Left_cdt"/>						
 
-		<CraneSocket Pos="(1.9; 1.45; 0)" />						
+		<CraneSocket Pos="(1.6; 1.45; 0)" />						
 		
 	</GameData>
 </Truck>
