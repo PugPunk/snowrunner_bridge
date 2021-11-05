@@ -35,12 +35,12 @@
 		<Body
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
-			Mass="1000"
+			Mass="2500"
 			Friction="3"						
 		>
 			<Body 
 				ForceBodyParams="true"
-				Mass="150"
+				Mass="750"
 				NoFoliageCollisions="true"
 				ModelFrame="Left_cdt" >
 				<Constraint
@@ -54,7 +54,7 @@
 			</Body>				
 			<Body 
 				ForceBodyParams="true"
-				Mass="150"
+				Mass="750"
 				NoFoliageCollisions="true"
 				ModelFrame="Right_cdt" >
 				<Constraint
@@ -84,10 +84,10 @@
 		<WinchSocket Pos="(1.7; .98; -1.5)" />		
 		<CraneSocket Pos="(1.7; .98; -1.5)" />						
 		
-		<WinchSocket Pos="(-2.62; 1.45; -1.1)" ParentFrame="Right_cdt"/>		
-		<CraneSocket Pos="(-2.62; 1.45; -1.1)" ParentFrame="Right_cdt"/>						
-		<WinchSocket Pos="(-2.62; 1.45; 1.1)" ParentFrame="Left_cdt"/>		
-		<CraneSocket Pos="(-2.62; 1.45; 1.1)" ParentFrame="Left_cdt"/>						
+		<WinchSocket Pos="(-2.59; 1.45; -1.1)" ParentFrame="Right_cdt"/>		
+		<CraneSocket Pos="(-2.59; 1.45; -1.1)" ParentFrame="Right_cdt"/>						
+		<WinchSocket Pos="(-2.59; 1.45; 1.1)" ParentFrame="Left_cdt"/>		
+		<CraneSocket Pos="(-2.59; 1.45; 1.1)" ParentFrame="Left_cdt"/>						
 
 		<CraneSocket Pos="(1.8; 1.45; 0)" />						
 		
