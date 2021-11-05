@@ -33,20 +33,20 @@
 		<Body
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
-			Mass="2000"
+			Mass="4000"
 			Friction="3"						
 		>
 		</Body>
 	</PhysicsModel>
 	<Landmark Mesh="landmarks/cargo_unit_service_spare_parts_1_lmk" MinScale="1.8" MaxScale="3.8" />
-	<GameData Price="275">
+	<GameData Price="575">
 		<UiDesc
 			UiDesc="JigSaw Bridge (platform)"
 			UiIcon30x30="trailerSemiImg30"
 			UiIcon40x40="trailerSemiImg"
 			UiName="JigSaw Bridge (platform)"
 		/>
-		<InstallSocket Offset="(4; .35; 0)" Type="Trailer" />		
+		<InstallSocket Offset="(5; .35; 0)" Type="Trailer" />		
 		<WinchSocket Pos="(0; 1.44; 0)" />		
 		<CraneSocket Pos="(0; 1.44; 0)" />
 		<WinchSocket Pos="(-2.2; 1.44; 0)" />		

@@ -15,8 +15,8 @@
 			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1)" />
 			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1)" RightSide="true" />
 			
-			<!--Wheel _template="DollyWheel" Pos="(-2.2; 1.94 .56)" ParentFrame="Left_cdt" />
-			<Wheel _template="DollyWheel" Pos="(-2.2; 1.94 .56)" RightSide="true" ParentFrame="Right_cdt" /-->
+			<Wheel _template="DollyWheel" Pos="(-2.415; 1.91, 1.02)" ParentFrame="Left_cdt" />
+			<Wheel _template="DollyWheel" Pos="(-2.415; 1.91, 1.02)" RightSide="true" ParentFrame="Right_cdt" />
 			
 		</Wheels>
 		<OcclusionMap
@@ -35,40 +35,48 @@
 		<Body
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
-			Mass="1200"
+			Mass="1000"
 			Friction="3"						
 		>
-			<Body Mass="400" ModelFrame="Left_cdt">
+			<Body 
+				ForceBodyParams="true"
+				Mass="150"
+				NoFoliageCollisions="true"
+				ModelFrame="Left_cdt" >
 				<Constraint
 					AxisLocal="(0; 0; 1)"
 					Name="Left"
 					Type="Hinge"
 					MinLimit="-150"
-					MaxLimit="350"
+					MaxLimit="50"
 				>
 				</Constraint>		
 			</Body>				
-			<Body Mass="400" ModelFrame="Right_cdt">
+			<Body 
+				ForceBodyParams="true"
+				Mass="150"
+				NoFoliageCollisions="true"
+				ModelFrame="Right_cdt" >
 				<Constraint
 					AxisLocal="(0; 0; 1)"
 					Name="Right"
 					Type="Hinge"
 					MinLimit="-150"
-					MaxLimit="350"
+					MaxLimit="50"
 				>
 				</Constraint>		
 			</Body>							
 		</Body>
 	</PhysicsModel>
 	<Landmark Mesh="landmarks/cargo_unit_service_spare_parts_1_lmk" MinScale="1.8" MaxScale="3.8" />
-	<GameData Price="675">
+	<GameData Price="625">
 		<UiDesc
 			UiDesc="JigSaw Bridge (ramps)"
 			UiIcon30x30="trailerSemiImg30"
 			UiIcon40x40="trailerSemiImg"
 			UiName="JigSaw Bridge (ramps)"
 		/>
-		<InstallSocket Offset="(4; .7; 0)" Type="Trailer" />		
+		<InstallSocket Offset="(5; .7; 0)" Type="Trailer" />		
 		<WinchSocket Pos="(2.64; 1.45; 0)" />		
 		<CraneSocket Pos="(2.64; 1.45; 0)" />						
 		<WinchSocket Pos="(1.7; .98; 1.5)" />		
@@ -76,12 +84,12 @@
 		<WinchSocket Pos="(1.7; .98; -1.5)" />		
 		<CraneSocket Pos="(1.7; .98; -1.5)" />						
 		
-		<WinchSocket Pos="(-2; 1.45; -1.1)" ParentFrame="Right_cdt"/>		
-		<CraneSocket Pos="(-2; 1.45; -1.1)" ParentFrame="Right_cdt"/>						
-		<WinchSocket Pos="(-2; 1.45; 1.1)" ParentFrame="Left_cdt"/>		
-		<CraneSocket Pos="(-2; 1.45; 1.1)" ParentFrame="Left_cdt"/>						
+		<WinchSocket Pos="(-2.62; 1.45; -1.1)" ParentFrame="Right_cdt"/>		
+		<CraneSocket Pos="(-2.62; 1.45; -1.1)" ParentFrame="Right_cdt"/>						
+		<WinchSocket Pos="(-2.62; 1.45; 1.1)" ParentFrame="Left_cdt"/>		
+		<CraneSocket Pos="(-2.62; 1.45; 1.1)" ParentFrame="Left_cdt"/>						
 
-		<CraneSocket Pos="(1.9; 1.45; 0)" />						
+		<CraneSocket Pos="(1.8; 1.45; 0)" />						
 		
 	</GameData>
 </Truck>
