@@ -15,8 +15,8 @@
 			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1)" />
 			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1)" RightSide="true" />
 			
-			<Wheel _template="DollyWheel" Pos="(-2.2; 1.94 .56)" ParentFrame="Left_cdt" />
-			<Wheel _template="DollyWheel" Pos="(-2.2; 1.94 .56)" RightSide="true" ParentFrame="Right_cdt" />
+			<!--Wheel _template="DollyWheel" Pos="(-2.2; 1.94 .56)" ParentFrame="Left_cdt" />
+			<Wheel _template="DollyWheel" Pos="(-2.2; 1.94 .56)" RightSide="true" ParentFrame="Right_cdt" /-->
 			
 		</Wheels>
 		<OcclusionMap
