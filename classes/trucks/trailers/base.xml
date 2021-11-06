@@ -12,10 +12,10 @@
 <Truck Type="Trailer">
 	<TruckData RepairsCapacity="300" WheelRepairsCapacity="2">
 		<Wheels>
-			<Wheel _template="DollyWheel" Pos="(1; .65; 1)" />
-			<Wheel _template="DollyWheel" Pos="(1; .65; 1)" RightSide="true" />
-			<Wheel _template="DollyWheel" Pos="(-1; .65; 1)" />
-			<Wheel _template="DollyWheel" Pos="(-1; .65; 1)" RightSide="true" />								
+			<Wheel _template="DollyWheel" Pos="(1; .65; .2)" />
+			<Wheel _template="DollyWheel" Pos="(1; .65; .2)" RightSide="true" />
+			<Wheel _template="DollyWheel" Pos="(-1; .65; .2)" />
+			<Wheel _template="DollyWheel" Pos="(-1; .65; .2)" RightSide="true" />								
 		</Wheels>
 		<OcclusionMap
 			HalfSizeZ="1.8"
