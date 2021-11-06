@@ -12,8 +12,8 @@
 <Truck Type="Trailer">
 	<TruckData RepairsCapacity="300" WheelRepairsCapacity="2">
 		<Wheels>
-			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1)" />
-			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1)" RightSide="true" />
+			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1.05)" />
+			<Wheel _template="DollyWheel" Pos="(1.6; .65; 1.05)" RightSide="true" />
 			<Wheel _template="DollyWheel" Pos="(-2.46; .65; 1)" />
 			<Wheel _template="DollyWheel" Pos="(-2.46; .65; 1)" RightSide="true" />			
 		</Wheels>
