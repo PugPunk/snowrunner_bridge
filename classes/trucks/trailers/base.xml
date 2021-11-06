@@ -41,14 +41,14 @@
 	<Landmark Mesh="landmarks/cargo_unit_service_spare_parts_1_lmk" MinScale="1.8" MaxScale="3.8" />
 	<GameData Price="575">
 		<UiDesc
-			UiDesc="JigSaw Bridge (begining)"
+			UiDesc="JigSaw Bridge (base)"
 			UiIcon30x30="trailerSemiImg30"
 			UiIcon40x40="trailerSemiImg"
-			UiName="JigSaw Bridge (begining)"
+			UiName="JigSaw Bridge (base)"
 		/>
 		<InstallSocket Offset="(5; .7; 0)" Type="Trailer" />		
-		<WinchSocket Pos="(0; 1; 0)" />		
-		<CraneSocket Pos="(0; 1; 0)" />						
+		<WinchSocket Pos="(0; 1.48; 0)" />		
+		<CraneSocket Pos="(0; 1.48; 0)" />						
 		<WinchSocket Pos="(-1.6; 1.44; 0)" />		
 		<CraneSocket Pos="(-1.6; 1.44; 0)" />						
 		<WinchSocket Pos="(-.68; 1.48; 1.5)" />		
