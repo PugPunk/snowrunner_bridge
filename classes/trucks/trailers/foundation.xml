@@ -49,8 +49,8 @@
 		<InstallSocket Offset="(5; .35; 0)" Type="Trailer" />		
 		<WinchSocket Pos="(0; 1.44; 0)" />		
 		<CraneSocket Pos="(0; 1.44; 0)" />
-		<WinchSocket Pos="(-2.2; 1.44; 0)" />		
-		<CraneSocket Pos="(-2.2; 1.44; 0)" />
+		<WinchSocket Pos="(2.2; 1.44; 0)" />		
+		<CraneSocket Pos="(2.2; 1.44; 0)" />
 		<WinchSocket Pos="(-2.35; 1.44; 0)" />		
 		<CraneSocket Pos="(-2.35; 1.44; 0)" />
 		<WinchSocket Pos="(2.32; .98; 1.5)" />		

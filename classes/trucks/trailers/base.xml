@@ -49,15 +49,13 @@
 		<InstallSocket Offset="(5; .7; 0)" Type="Trailer" />		
 		<WinchSocket Pos="(0; 1.48; 0)" />		
 		<CraneSocket Pos="(0; 1.48; 0)" />						
-		<WinchSocket Pos="(-1.6; 1.44; 0)" />		
-		<CraneSocket Pos="(-1.6; 1.44; 0)" />						
-		<WinchSocket Pos="(-.68; 1.48; 1.5)" />		
-		<CraneSocket Pos="(-.68; 1.48; 1.5)" />						
-		<WinchSocket Pos="(-.68; 1.48; -1.5)" />		
-		<CraneSocket Pos="(-.68; 1.48; -1.5)" />						
-		<WinchSocket Pos="(.68; 1.48; 1.5)" />		
-		<CraneSocket Pos="(.68; 1.48; 1.5)" />						
-		<WinchSocket Pos="(.68; 1.48; -1.5)" />		
-		<CraneSocket Pos="(.68; 1.48; -1.5)" />						
+		<WinchSocket Pos="(-.68; 1.08; 1.5)" />		
+		<CraneSocket Pos="(-.68; 1.08; 1.5)" />						
+		<WinchSocket Pos="(-.68; 1.08; -1.5)" />		
+		<CraneSocket Pos="(-.68; 1.08; -1.5)" />						
+		<WinchSocket Pos="(.68; 1.08; 1.5)" />		
+		<CraneSocket Pos="(.68; 1.08; 1.5)" />						
+		<WinchSocket Pos="(.68; 1.08; -1.5)" />		
+		<CraneSocket Pos="(.68; 1.08; -1.5)" />						
 	</GameData>
 </Truck>
