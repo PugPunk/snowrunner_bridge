@@ -72,8 +72,6 @@
 	<GameData Price="625">
 		<UiDesc
 			UiDesc="JigSaw Bridge (ramps)"
-			UiIcon30x30="trailerSemiImg30"
-			UiIcon40x40="trailerSemiImg"
 			UiName="JigSaw Bridge (ramps)"
 		/>
 		<InstallSocket Offset="(5; .7; 0)" Type="Trailer" />		
